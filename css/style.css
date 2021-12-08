@@ -24,3 +24,7 @@ footer {
 .cuerpo {
     /* background: linear-gradient(to right, #161616, #2b2f31); */
 }
+
+.none {
+    text-decoration: none;
+}
