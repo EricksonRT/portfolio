@@ -9,6 +9,25 @@
 .fondo {
     width: 100%;
     padding-bottom: 10%;
+    /* background: linear-gradient(#2a7fee, #33aeff), url('../img/h1.jpg'); */
+    background: #373b44;
+    background: -webkit-linear-gradient( to top, rgba(66, 134, 244, 0.719), rgba(55, 59, 68, 0.596)), url('../img/h1.jpg');
+    background: linear-gradient( to top, rgba(66, 134, 244, 0.521), rgba(55, 59, 68, 0.623)), url('../img/h1.jpg');
+    /* importantes */
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    width: auto;
+    height: auto;
+}
+
+.fondo-proyectos {
+    width: 100%;
+    padding-bottom: 10%;
     background: #5dbeff;
     background: linear-gradient(to right, #2a7fee, #33aeff);
     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
