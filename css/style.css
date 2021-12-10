@@ -29,7 +29,7 @@
     width: 100%;
     padding-bottom: 10%;
     background: #5dbeff;
-    background: linear-gradient(to right, #2a7fee, #33aeff);
+    background: linear-gradient( to top, rgba(30, 88, 196, 0.953), rgba(19, 85, 129, 0.822));
     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
 }
 
