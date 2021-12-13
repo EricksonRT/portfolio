@@ -22,7 +22,7 @@
     /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
     background-attachment: fixed;
     width: auto;
-    height: auto;
+    height: 100vh;
 }
 
 .fondo-proyectos {
@@ -46,4 +46,77 @@ footer {
 
 .none {
     text-decoration: none;
+}
+
+
+/* Medias queries */
+
+@media (min-width: 300px) {
+    .img-perfil {
+        size: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        width: 50%;
+        height: 200px;
+    }
+}
+
+@media (min-width: 350px) {
+    .img-perfil {
+        size: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        width: 50%;
+        height: 210px;
+    }
+}
+
+@media (min-width: 400px) {
+    .img-perfil {
+        size: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        width: 50%;
+        height: 200px;
+    }
+}
+
+@media (min-width: 451px) {
+    .img-perfil {
+        size: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        width: 50%;
+        height: 250px;
+    }
+}
+
+@media (min-width: 500px) {
+    .img-perfil {
+        size: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        width: 50%;
+        height: 300px;
+    }
+}
+
+@media (min-width: 550px) {
+    .img-perfil {
+        size: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        width: 50%;
+        height: 325px;
+    }
+}
+
+@media (min-width: 768px) {
+    .img-perfil {
+        size: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        width: 50%;
+        height: auto;
+    }
 }
